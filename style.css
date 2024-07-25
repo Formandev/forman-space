@@ -1,0 +1,1399 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "Bellefair", serif;
+  font-size: 150px;
+  width: 100%;
+  color: #fff;
+}
+h2 {
+  font-family: "Bellefair", serif;
+  font-size: 100px;
+  color: #fff;
+}
+h3 {
+  font-size: 56px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 4.724999904632568px;
+  color: #fff;
+}
+/* HOME PAGE */
+
+body#home {
+  background: url(./img/home-thematic-background.png);
+}
+.wrapper {
+  width: 100%;
+}
+.header-of-page {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 96px;
+  margin-top: 20px;
+}
+.header-star {
+  margin-left: 55px;
+}
+.header-line {
+  position: absolute;
+  left: 12%;
+  z-index: 1;
+}
+.main-navigation {
+  height: 100%;
+  backdrop-filter: blur(81.54845428466797px);
+  background: rgba(255, 255, 255, 0.04);
+  align-content: center;
+  max-width: 830px;
+  padding: 0 165px 0 123px;
+}
+.ul-navigation {
+  display: flex;
+  gap: 48px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: normal;
+}
+.navbar-link {
+  letter-spacing: 2.700000047683716px;
+  display: flex;
+  gap: 12px;
+  padding: 37px 0;
+  color: #fff;
+}
+.nav-li-active-page {
+  border-bottom: 3px solid white;
+  color: #fff;
+}
+.nav-li a:hover {
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+.navbar-span {
+  font-weight: 700;
+  letter-spacing: 2.700000047683716px;
+}
+
+.space-div {
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+.text-above-space {
+  color: #d0d6f9;
+}
+.text-under-space {
+  color: #d0d6f9;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 32px;
+  max-width: 444px;
+  width: 100%;
+  letter-spacing: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+.any-content-home-page {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 60px;
+  align-items: end;
+}
+
+.container-explore-button {
+  width: 276px;
+  height: 276px;
+  background-color: #fff;
+  border-radius: 50%;
+  align-content: center;
+  text-align: center;
+  outline: 0px solid rgba(151, 151, 151, 1);
+}
+.explore-button {
+  color: #0b0d17;
+  font-size: 32px;
+  font-style: normal;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-explore-button:hover {
+  outline: 88px solid rgba(151, 151, 151, 0.1);
+  transition: outline 1s ease;
+}
+
+/* DESTINATION PAGE */
+#destination {
+  background: url(./img/background-photo-destination.png);
+}
+.any-content-destination {
+  margin-top: 76px;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.title-and-planet {
+  display: flex;
+  flex-direction: column;
+}
+.span-above-planet {
+  font-weight: 700;
+  letter-spacing: 4.724999904632568px;
+  color: #fff;
+  opacity: 0.25;
+}
+.planet-img {
+  margin-top: 93px;
+  margin-left: 63.5px;
+  width: 100%;
+  max-width: 445px;
+}
+
+.about-planet {
+  width: 100%;
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+}
+.any-planet-list,
+.any-planet-list li {
+  display: flex;
+  gap: 36px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.any-planet-list {
+  height: 34px;
+  width: 100%;
+  max-width: 300px;
+  color: #fff;
+}
+.nav-link-planet {
+  padding-bottom: 15px;
+  color: #d0d6f9;
+  letter-spacing: 2.700000047683716px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.nav-li-active-page-planet {
+  border-bottom: 3px solid white;
+  color: #fff;
+}
+.planet-title {
+  margin-top: 37px;
+}
+.text-under-planet {
+  color: #d0d6f9;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  margin-top: 14px;
+}
+.planet-line {
+  width: 100%;
+  margin-top: 54px;
+}
+.two-div-with-some-characteristic {
+  display: flex;
+  gap: 79px;
+  margin-top: 28px;
+}
+.characteristic-FIRST-or-SECOND-div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.distance-or-travel-time {
+  font-family: "Barlow", sans-serif;
+  color: #d0d6f9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362499952316284px;
+  text-transform: uppercase;
+}
+.kilometr-or-day {
+  color: #fff;
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+  line-height: normal;
+}
+
+/* CREW PAGE */
+#crew {
+  background: url(./img/crew-background.png);
+}
+.any-content-crew-page {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.many-text-div {
+  margin-top: 76px;
+  margin-left: 166px;
+}
+.h4-crew {
+  font-family: "Bellefair", serif;
+  color: #fff;
+  opacity: 0.5;
+  margin-top: 154px;
+}
+.name-a-hero {
+  font-family: "Bellefair", sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #fff;
+  margin: 15px 0 27px;
+}
+.first-man {
+  height: 100%;
+  max-height: 600px;
+  position: absolute;
+  bottom: -0.9%;
+  right: 8%;
+}
+.many-cirkles-in-crew {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  height: 15px;
+  gap: 24px;
+  margin-top: 100px;
+}
+.cirkles-crew {
+  display: block;
+  width: 15px;
+  border-radius: 100%;
+  background-color: white;
+}
+.active-cirkle {
+  opacity: 1;
+}
+.idle-cirkle {
+  opacity: 0.174362912774086;
+}
+.idle-cirkle:hover {
+  opacity: 0.5;
+}
+
+/* TECHNOLOGY PAGE */
+#technology {
+  background: url(./img/background-tech.jpg);
+}
+.any-content-tech-page {
+  margin-top: 76px;
+  margin-left: 166px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.nav-and-text-tech-page {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-top: 137px;
+}
+
+.nav-tech-page {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.number-link-div {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.number-link-div-active {
+  background-color: #fff;
+}
+.number-link-div-idle {
+  background-color: transparent;
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+}
+.number-link-active {
+  color: #0b0d17;
+  font-size: 32px;
+  font-style: normal;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+.number-link-idle {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+.number-link-div-idle:hover {
+  border: 3px solid rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.text-tech-page {
+  max-width: 470px;
+}
+.terminology {
+  margin-bottom: 11px;
+  color: #d0d6f9;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.700000047683716px;
+}
+.rocket-title {
+  margin-bottom: 17px;
+  font-family: "Bellefair", serif;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: normal;
+  font-size: 56px;
+}
+.rocket-img {
+  position: absolute;
+  right: 0;
+  max-height: 90%;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+/* MEDIA ADAPTATION INTO TABLET */
+@media screen and (min-width: 769px) {
+  .upper-text-tabl-optim {
+    display: none;
+  }
+  .first-man-in-phone-optim {
+    display: none;
+  }
+  .rocket-in-phone {
+    display: none;
+  }
+}
+@media screen and (min-width: 451px) {
+  .header-of-page-for-phone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-family: "Bellefair", serif;
+    font-size: 150px;
+    line-height: 150px;
+    width: 100%;
+    color: #fff;
+  }
+  h2 {
+    font-family: "Bellefair", serif;
+    font-size: 100px;
+    color: #fff;
+  }
+  h3 {
+    font-size: 56px;
+  }
+  h4 {
+    font-size: 32px;
+  }
+  h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 3.375px;
+  }
+
+  /* HOME PAGE */
+
+  body#home {
+    background: url(./img/back-in-table-home.png);
+    width: 100vw;
+    height: 100vh;
+  }
+  .wrapper {
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+  }
+  .header-of-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 768px;
+    width: 100%;
+    height: 96px;
+    margin-top: 20px;
+  }
+  .header-star {
+    margin-left: 39px;
+  }
+  .header-line {
+    display: none;
+  }
+  .main-navigation {
+    height: 100%;
+    backdrop-filter: blur(81.54845428466797px);
+    background: rgba(255, 255, 255, 0.04);
+    align-content: center;
+    max-width: 450px;
+    padding: 0 48px 0 46px;
+  }
+  .ul-navigation {
+    display: flex;
+    gap: 38px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+    line-height: normal;
+  }
+  .navbar-link {
+    letter-spacing: 2.700000047683716px;
+    display: flex;
+    gap: 12px;
+    padding: 37px 0;
+    color: #fff;
+  }
+  .nav-li-active-page {
+    border-bottom: 3px solid white;
+    color: #fff;
+  }
+  .nav-li a:hover {
+    border-bottom: 3px solid rgb(192, 192, 192);
+  }
+  .navbar-span {
+    display: none;
+  }
+
+  .space-div {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .text-under-space {
+    color: #d0d6f9;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    max-width: 458px;
+    width: 100%;
+    letter-spacing: 0;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+  }
+
+  .any-content-home-page {
+    margin-top: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .container-explore-button {
+    width: 242px;
+    height: 242px;
+    background-color: #fff;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    outline: 0px solid rgba(151, 151, 151, 1);
+    margin-bottom: 90px;
+  }
+  .explore-button {
+    color: #0b0d17;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  .container-explore-button:hover {
+    outline: 88px solid rgba(151, 151, 151, 0.1);
+    transition: outline 1s ease;
+  }
+
+  /* DESTINATION PAGE */
+  #destination {
+    background: url(./img/background-photo-destination.png);
+    background-size: cover;
+  }
+  .navbar-span {
+    display: block;
+  }
+  .any-content-destination {
+    margin-top: 121px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    width: 100vw;
+    position: relative;
+    margin-bottom: 62px;
+  }
+  .title-and-planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .upper-text {
+    position: absolute;
+    left: 38.5px;
+    top: -81px;
+    text-transform: uppercase;
+  }
+  .span-above-planet {
+    font-weight: 700;
+    letter-spacing: 4.724999904632568px;
+    color: #fff;
+    opacity: 0.25;
+  }
+  .planet-img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+  }
+
+  .about-planet {
+    width: 100%;
+    max-width: 575px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .any-planet-list,
+  .any-planet-list li {
+    display: flex;
+    gap: 36px;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  .any-planet-list {
+    height: 34px;
+    width: 100%;
+    max-width: 300px;
+    color: #fff;
+  }
+  .nav-link-planet {
+    padding-bottom: 15px;
+    color: #d0d6f9;
+    letter-spacing: 2.700000047683716px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .nav-li-active-page-planet {
+    border-bottom: 3px solid white;
+    color: #fff;
+  }
+  .planet-title {
+    margin-top: 32px;
+    font-size: 80px;
+  }
+  .text-under-planet {
+    color: #d0d6f9;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin-top: 14px;
+  }
+  .planet-line {
+    display: none;
+  }
+  .two-div-with-some-characteristic {
+    border-top: 1px solid rgba(151, 151, 151, 0.25);
+    display: flex;
+    gap: 79px;
+    margin-top: 28px;
+    padding-top: 28px;
+  }
+
+  /* CREW PAGE */
+  #crew {
+    background: url(./img/crew-background.png);
+    background-size: cover;
+  }
+  .any-content-crew-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 124px;
+  }
+  .many-text-div {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .h4-crew {
+    font-family: "Bellefair", serif;
+    color: #fff;
+    opacity: 0.5;
+    margin-top: 0px;
+    font-size: 24px;
+  }
+  .name-a-hero {
+    font-family: "Bellefair", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    margin: 8px 0 16px;
+  }
+  .first-man {
+    height: 100%;
+    max-height: 600px;
+    display: none;
+  }
+  .many-cirkles-in-crew {
+    display: flex;
+    justify-content: space-between;
+    width: 88px;
+    height: 10px;
+    gap: 16px;
+    margin-top: 40px;
+  }
+  .cirkles-crew {
+    display: block;
+    width: 10px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  .active-cirkle {
+    opacity: 1;
+  }
+  .idle-cirkle {
+    opacity: 0.174362912774086;
+  }
+  .idle-cirkle:hover {
+    opacity: 0.5;
+  }
+  .upper-text-tabl-optim {
+    position: absolute;
+    text-transform: uppercase;
+    left: -102px;
+    top: -84px;
+  }
+  .first-man-in-phone-optim {
+    max-width: 456.3720703125px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .mark-dev-opt {
+    max-width: 368.853515625px;
+    width: 100%;
+  }
+  .viktor-dev-opt {
+    max-width: 433.09033203125px;
+    width: 100%;
+  }
+  .women-dev-opt {
+    max-width: 539.5078125px;
+    width: 100%;
+  }
+
+  /* TECHNOLOGY PAGE */
+  #technology {
+    background: url(./img/background-tech.jpg);
+    background-size: cover;
+  }
+  .upper-text-tech {
+    position: absolute;
+    left: 38.5px;
+    top: 40px;
+    letter-spacing: 3.375px;
+    font-weight: 400;
+  }
+  .any-content-tech-page {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 97px;
+  }
+  .nav-and-text-tech-page {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    margin-top: 56px;
+  }
+
+  .nav-tech-page {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+  }
+  .number-link-div {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  .number-link-div-active {
+    background-color: #fff;
+  }
+  .number-link-div-idle {
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.25);
+    border-radius: 100%;
+  }
+  .number-link-active {
+    color: #0b0d17;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: none;
+  }
+  .number-link-idle {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: none;
+  }
+  .number-link-div-idle:hover {
+    border: 3px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  .text-tech-page {
+    max-width: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .terminology {
+    margin-bottom: 0px;
+    color: #d0d6f9;
+    font-size: 1612px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.700000047683716px;
+  }
+  .rocket-title {
+    margin-bottom: 0px;
+    font-family: "Bellefair", serif;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+    font-size: 40px;
+  }
+  .rocket-img {
+    display: none;
+  }
+  .rocket-in-phone {
+    width: 100%;
+    max-width: 768px;
+    margin-top: 124px;
+  }
+}
+
+/* MEDIA IN PHONE */
+@media screen and (max-width: 450px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-family: "Bellefair", serif;
+    font-size: 150px;
+    line-height: 150px;
+    width: 100%;
+    color: #fff;
+  }
+  h2 {
+    font-family: "Bellefair", serif;
+    font-size: 100px;
+    color: #fff;
+  }
+  h3 {
+    font-size: 56px;
+  }
+  h4 {
+    font-size: 32px;
+  }
+  h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 3.375px;
+  }
+
+  /* HOME PAGE */
+
+  #home {
+    background: url(./img/back-in-table-home.png);
+    background-size: cover;
+  }
+  .wrapper {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .header-of-page {
+    display: none;
+  }
+  .header-of-page-for-phone {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    float: right;
+    margin: 2em;
+    cursor: pointer;
+  }
+
+  .menuuu {
+    width: 100%;
+    max-width: 254px;
+    left: auto;
+    bottom: auto;
+    backdrop-filter: blur(81.54845428466797px);
+    background: rgba(255, 255, 255, 0.04);
+    border: none;
+    height: 100vh;
+    translate: 100% 0;
+    transition: translate 0.5s, display 0.5s ease-out allow-discrete;
+
+    &:popover-open {
+      translate: 0 0;
+
+      @starting-style {
+        translate: 100% 0;
+      }
+    }
+  }
+
+  .ul-navigation {
+    list-style-type: none;
+    margin-top: 7em;
+    flex-direction: column;
+    li {
+      padding: 0.5em 0;
+      border-bottom: none;
+      a {
+        font-size: 16px;
+        letter-spacing: 2.700000047683716px;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .burger-menu:hover {
+    cursor: pointer;
+  }
+  .header-star {
+    margin-left: 39px;
+  }
+  .header-line {
+    display: none;
+  }
+  .main-navigation {
+    height: 100%;
+    backdrop-filter: blur(81.54845428466797px);
+    background: rgba(255, 255, 255, 0.04);
+    align-content: center;
+    max-width: 450px;
+    padding: 0 48px 0 46px;
+  }
+  .ul-navigation {
+    display: flex;
+    gap: 32px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+    line-height: normal;
+  }
+  .navbar-link {
+    letter-spacing: 2.700000047683716px;
+    display: flex;
+    gap: 12px;
+    padding: 0px 0;
+    color: #fff;
+  }
+  .nav-li-active-page {
+    border-bottom: 3px solid white;
+    color: #fff;
+  }
+  .nav-li a:hover {
+    border-bottom: 3px solid rgb(192, 192, 192);
+  }
+  .space-div {
+    display: flex;
+    width: 100%;
+    max-width: 327px;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+  }
+  .mobile-h1 {
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 400;
+  }
+
+  .text-under-space {
+    color: #d0d6f9;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 25px;
+    max-width: 327px;
+    width: 100%;
+    letter-spacing: 0;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+  }
+
+  .any-content-home-page {
+    margin-top: 48px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 81px;
+    align-items: center;
+  }
+
+  .container-explore-button {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    outline: 0px solid rgba(151, 151, 151, 1);
+    margin-bottom: 0px;
+  }
+  .explore-button {
+    color: #0b0d17;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  .container-explore-button:hover {
+    outline: 88px solid rgba(151, 151, 151, 0.1);
+    transition: outline 1s ease;
+  }
+
+  /* DESTINATION PAGE */
+  #destination {
+    background: url(./img/background-photo-destination.png);
+    background-size: cover;
+  }
+  .any-content-destination {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    width: 100vw;
+    position: relative;
+    margin-bottom: 62px;
+  }
+  .title-and-planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .upper-text {
+    text-transform: uppercase;
+    position: absolute;
+    top: -56px;
+    left: auto;
+    right: auto;
+  }
+  .span-above-planet {
+    font-weight: 700;
+    letter-spacing: 4.724999904632568px;
+    color: #fff;
+    opacity: 0.25;
+  }
+  .planet-img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+  }
+
+  .about-planet {
+    width: 100%;
+    max-width: 575px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .any-planet-list,
+  .any-planet-list li {
+    display: flex;
+    gap: 36px;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  .any-planet-list {
+    height: 34px;
+    width: 100%;
+    max-width: 300px;
+    color: #fff;
+  }
+  .nav-link-planet {
+    padding-bottom: 15px;
+    color: #d0d6f9;
+    letter-spacing: 2.700000047683716px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .nav-li-active-page-planet {
+    border-bottom: 3px solid white;
+    color: #fff;
+  }
+  .planet-title {
+    margin-top: 20px;
+    font-size: 56px;
+  }
+  .text-under-planet {
+    color: #d0d6f9;
+    font-size: 15px;
+    font-style: normal;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin-top: 1px;
+    max-width: 327px;
+  }
+  .planet-line {
+    display: block;
+    max-width: 327px;
+    width: 84%;
+    padding: 0;
+    margin: 32px 0;
+  }
+  .two-div-with-some-characteristic {
+    border-top: 0;
+    display: flex;
+    gap: 32px;
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+  }
+
+  /* CREW PAGE */
+  .wrapper-crew {
+    height: 100vh;
+  }
+  #crew {
+    background: url(./img/crew-background.png);
+    background-size: cover;
+  }
+  .any-content-crew-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 75px;
+    margin-bottom: 0;
+  }
+  .many-text-div {
+    margin-top: 32px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .h4-crew {
+    font-family: "Bellefair", serif;
+    color: #fff;
+    opacity: 0.5;
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  .name-a-hero {
+    font-family: "Bellefair", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin: 8px 0 16px;
+  }
+  .first-man {
+    height: 100%;
+    max-height: 327px;
+    display: none;
+    border-bottom: 1px solid rgb();
+  }
+  .many-cirkles-in-crew {
+    display: flex;
+    justify-content: space-between;
+    width: 88px;
+    height: 10px;
+    gap: 16px;
+    margin-top: 0px;
+    order: -1;
+    margin-bottom: 32px;
+  }
+  .cirkles-crew {
+    display: block;
+    width: 10px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  .active-cirkle {
+    opacity: 1;
+  }
+  .idle-cirkle {
+    opacity: 0.174362912774086;
+  }
+  .idle-cirkle:hover {
+    opacity: 0.5;
+  }
+  .upper-text-tabl-optim {
+    position: absolute;
+    text-transform: uppercase;
+    left: auto;
+    top: -51px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .first-man-in-phone-optim {
+    max-width: 327px;
+    width: 100%;
+    padding: 0 65px;
+    margin-top: 0px;
+    order: -1;
+    border-bottom: 1px solid rgb(56, 59, 75);
+  }
+  .mark-dev-opt {
+    width: 100%;
+    padding: 0 85px;
+  }
+  .viktor-dev-opt {
+    padding: 0 75px;
+    width: 100%;
+  }
+  .women-dev-opt {
+    padding: 0 50px;
+    width: 100%;
+  }
+
+  /* TECHNOLOGY PAGE */
+  #technology {
+    background: url(./img/background-tech.jpg);
+    background-size: cover;
+  }
+  .upper-text-tech {
+    position: absolute;
+    left: auto;
+    top: 0px;
+    letter-spacing: 3.375px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .any-content-tech-page {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 97px;
+    gap: 34px;
+  }
+  .nav-and-text-tech-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    margin-top: 0px;
+  }
+
+  .nav-tech-page {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    max-width: 152px;
+  }
+  .number-link-div {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  .number-link-div-active {
+    background-color: #fff;
+  }
+  .number-link-div-idle {
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.25);
+    border-radius: 100%;
+  }
+  .number-link-active {
+    color: #0b0d17;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: none;
+  }
+  .number-link-idle {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: none;
+  }
+  .number-link-div-idle:hover {
+    border: 3px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  .text-tech-page {
+    max-width: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .terminology {
+    margin-bottom: 9px;
+    color: #d0d6f9;
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.700000047683716px;
+  }
+  .rocket-title {
+    margin-bottom: 16px;
+    font-family: "Bellefair", serif;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+    font-size: 24px;
+  }
+  .rocket-img {
+    display: none;
+  }
+  .rocket-in-phone {
+    width: 100%;
+    max-width: 768px;
+    margin-top: 75px;
+  }
+}
